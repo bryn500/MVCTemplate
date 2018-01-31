@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="">
+
+    @* Change the url/status bar colour *@
+    @*<meta name="theme-color" content="#000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">*@
+
+    @RenderSection("css", required: false)   
+</head>
+<body>    
+    @RenderBody()
+    
+    @RenderSection("scripts", required: false)
+
+    @* AddAntiForgeryToken form *@
+    <form id="__AjaxAntiForgeryForm" action="#" method="post">@Html.AntiForgeryToken()</form>
+
+    <!--Generated: @DateTime.Now.ToString() -->
+</body>
+</html>
