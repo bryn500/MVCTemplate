@@ -19,8 +19,7 @@
       <Folder Name="App_Data" TargetFolderName="App_Data" />
       <Folder Name="App_Start" TargetFolderName="App_Start">
         <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
-      </Folder>
-      <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationInsights.config">ApplicationInsights.config</ProjectItem>
+      </Folder>      
       <Folder Name="Content" TargetFolderName="Content">
         <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
       </Folder>
